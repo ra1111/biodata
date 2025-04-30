@@ -21,17 +21,26 @@ export default function LanguageSwitcher() {
 
   const changeLanguage = (lng: string) => {
     i18n.changeLanguage(lng);
+    // Save selected language to localStorage
+    localStorage.setItem('i18nextLng', lng);
   };
 
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="ghost" size="icon" className="text-white hover:bg-white/10">
+        <Button 
+          variant="ghost" 
+          size="icon" 
+          className="relative text-white hover:bg-white/10 md:text-gray-700 md:hover:bg-gray-100 rounded-full p-2 flex items-center justify-center"
+        >
           <Globe className="h-5 w-5" />
           <span className="sr-only">Switch language</span>
+          <span className="absolute -top-1 -right-1 bg-blue-500 text-white text-xs rounded-full w-4 h-4 flex items-center justify-center">
+            {i18n.language.substring(0, 2)}
+          </span>
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="end">
+      <DropdownMenuContent align="end" className="w-32 mt-1">
         {languages.map((lang) => (
           <DropdownMenuItem 
             key={lang.code}

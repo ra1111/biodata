@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import ValueProps from "@/components/ValueProps";
@@ -11,30 +10,31 @@ import FAQ from "@/components/FAQ";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
+import { useScroll, useResponsive } from "@/hooks/use-responsive";
+import { useEffect } from "react";
 
 export default function Home() {
-  // State to track if the user has scrolled
-  const [hasScrolled, setHasScrolled] = useState(false);
-
-  // Track scroll position for effects
+  // Use custom hooks for scroll and responsive design
+  const { hasScrolled } = useScroll();
+  const { isMobile, isTablet, isDesktop, width } = useResponsive();
+  
+  // Scroll to top when the page loads
   useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 10) {
-        setHasScrolled(true);
-      } else {
-        setHasScrolled(false);
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.scrollTo(0, 0);
   }, []);
 
+  // Log device type for debugging
+  useEffect(() => {
+    const deviceType = isMobile ? 'Mobile' : isTablet ? 'Tablet' : 'Desktop';
+    console.log(`Current device: ${deviceType}, Width: ${width}px`);
+  }, [isMobile, isTablet, isDesktop, width]);
+
   return (
-    <div className="font-sans text-gray-800 bg-gray-50">
+    <div className="font-sans text-gray-800 bg-gray-50 overflow-x-hidden">
       <Header hasScrolled={hasScrolled} />
       
-      <motion.div
+      <motion.main
+        className="flex flex-col"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5 }}
@@ -49,7 +49,7 @@ export default function Home() {
         <FAQ />
         <CTA />
         <Footer />
-      </motion.div>
+      </motion.main>
     </div>
   );
 }
