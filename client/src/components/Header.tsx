@@ -50,7 +50,7 @@ export default function Header({ hasScrolled }: HeaderProps) {
             transition={{ duration: 0.5 }}
           >
             <span className="text-2xl font-bold text-adgenie-primary">
-              <i className="fas fa-magic mr-2"></i>AdGenie AI
+              <i className="fas fa-magic mr-2"></i>AdGenie | AI Ads for Shopify
             </span>
           </motion.div>
           
