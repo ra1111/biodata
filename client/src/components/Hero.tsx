@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import adgenieCardSvg from "../assets/adgenie-card.svg";
 
 export default function Hero() {
   return (
@@ -39,18 +38,16 @@ export default function Hero() {
               </div>
             </motion.div>
             
-            {/* Product Demo Card - Using the SVG image */}
+            {/* Simple image placeholder as shown in screenshot */}
             <motion.div 
-              className="md:w-1/2 relative"
+              className="md:w-1/2 relative flex justify-center"
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.7, delay: 0.2 }}
             >
-              <img 
-                src={adgenieCardSvg} 
-                alt="AdGenie AI Ad Generator Demo" 
-                className="w-full h-auto rounded-lg shadow-xl"
-              />
+              <div className="p-4 bg-white/10 rounded-lg shadow-lg w-[400px] h-[280px] flex items-center justify-center">
+                <span className="text-white text-lg">AdGenie AI Ad Generator Demo</span>
+              </div>
             </motion.div>
           </div>
         </div>
