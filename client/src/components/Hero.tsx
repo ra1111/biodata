@@ -5,7 +5,7 @@ export default function Hero() {
   const { t } = useTranslation();
 
   return (
-    <section className="relative overflow-hidden bg-gradient-to-r from-indigo-600 to-indigo-800 text-white py-16 md:py-24 lg:py-32">
+    <section className="relative overflow-hidden bg-indigo-700 text-white py-16 md:py-24 lg:py-32">
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0 bg-grid-white/[0.2] bg-[length:16px_16px]"></div>
@@ -28,7 +28,7 @@ export default function Hero() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <motion.a 
                 href="https://apps.shopify.com/adgenie-ai" 
-                className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 border border-transparent text-base md:text-lg font-medium rounded-full shadow-sm text-indigo-700 bg-white hover:bg-gray-100 transition transform hover:scale-105 duration-200"
+                className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 border border-transparent text-base md:text-lg font-medium rounded-full shadow-sm text-indigo-800 bg-white hover:bg-gray-100 transition transform hover:scale-105 duration-200"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >

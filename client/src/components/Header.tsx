@@ -56,9 +56,7 @@ export default function Header({ hasScrolled }: HeaderProps) {
 
   return (
     <header 
-      className={`sticky top-0 z-50 w-full transition-all duration-300 ${
-        hasScrolled ? 'bg-white shadow-md' : 'bg-transparent'
-      }`}
+      className="sticky top-0 z-50 w-full bg-white shadow-sm transition-all duration-300"
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-3 md:py-4">
@@ -69,7 +67,7 @@ export default function Header({ hasScrolled }: HeaderProps) {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <span className={`text-xl sm:text-2xl font-bold ${hasScrolled ? 'text-adgenie-primary' : 'text-white'}`}>
+            <span className="text-xl sm:text-2xl font-bold text-indigo-600">
               <i className="fas fa-magic mr-2"></i>
               <span className="hidden sm:inline">AdGenie</span>
               <span className="sm:hidden">AG</span>
@@ -79,7 +77,7 @@ export default function Header({ hasScrolled }: HeaderProps) {
           
           {/* Desktop Navigation */}
           <motion.nav 
-            className="hidden md:flex space-x-4 lg:space-x-8 items-center"
+            className="hidden md:flex space-x-6 lg:space-x-10 items-center"
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
@@ -88,7 +86,7 @@ export default function Header({ hasScrolled }: HeaderProps) {
               <a 
                 key={index}
                 href={link.href} 
-                className={`text-sm lg:text-base font-medium ${hasScrolled ? 'text-gray-700 hover:text-adgenie-primary' : 'text-white hover:text-white/80'} transition`}
+                className="text-sm lg:text-base font-medium text-gray-700 hover:text-indigo-600 transition"
               >
                 {t(`nav.${link.key}`)}
               </a>
@@ -100,7 +98,7 @@ export default function Header({ hasScrolled }: HeaderProps) {
           <div className="flex items-center space-x-2 sm:space-x-4">
             <motion.a 
               href="https://apps.shopify.com/adgenie-ai" 
-              className="hidden md:inline-flex items-center px-4 lg:px-5 py-2 border border-transparent text-sm lg:text-base font-medium rounded-full shadow-sm text-white bg-shopify-green hover:bg-opacity-90 transition"
+              className="hidden md:inline-flex items-center px-5 lg:px-6 py-2 border border-transparent text-sm lg:text-base font-medium rounded-full shadow-sm text-white bg-green-600 hover:bg-green-700 transition"
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5, delay: 0.2 }}
@@ -117,7 +115,7 @@ export default function Header({ hasScrolled }: HeaderProps) {
             {/* Mobile menu button */}
             <button 
               type="button" 
-              className={`md:hidden p-2 rounded-full ${hasScrolled ? 'bg-gray-100' : 'bg-white/10 text-white'}`}
+              className="md:hidden p-2 rounded-full bg-gray-100 text-gray-700"
               onClick={toggleMobileMenu}
               aria-label="Toggle menu"
             >
@@ -151,7 +149,7 @@ export default function Header({ hasScrolled }: HeaderProps) {
             >
               <div className="flex flex-col h-full">
                 <div className="flex justify-between items-center px-4 py-5 border-b">
-                  <span className="text-xl font-bold text-adgenie-primary">AdGenie</span>
+                  <span className="text-xl font-bold text-indigo-600">AdGenie</span>
                   <button
                     onClick={() => setIsMobileMenuOpen(false)}
                     className="p-2 rounded-full hover:bg-gray-100"
@@ -164,7 +162,7 @@ export default function Header({ hasScrolled }: HeaderProps) {
                     <a 
                       key={index}
                       href={link.href} 
-                      className="block px-4 py-3 text-lg font-medium text-gray-700 hover:text-adgenie-primary hover:bg-gray-50 border-b border-gray-100"
+                      className="block px-4 py-3 text-lg font-medium text-gray-700 hover:text-indigo-600 hover:bg-gray-50 border-b border-gray-100"
                       onClick={() => setIsMobileMenuOpen(false)}
                     >
                       {t(`nav.${link.key}`)}
@@ -173,7 +171,7 @@ export default function Header({ hasScrolled }: HeaderProps) {
                   <div className="mt-6 px-4">
                     <a 
                       href="https://apps.shopify.com/adgenie-ai" 
-                      className="block w-full py-3 px-4 rounded-full text-center text-white bg-shopify-green font-medium shadow"
+                      className="block w-full py-3 px-4 rounded-full text-center text-white bg-green-600 font-medium shadow"
                       onClick={() => setIsMobileMenuOpen(false)}
                     >
                       {t('header.installApp')}

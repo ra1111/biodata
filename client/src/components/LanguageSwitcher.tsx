@@ -24,27 +24,25 @@ export default function LanguageSwitcher() {
     // Save selected language to localStorage
     localStorage.setItem('i18nextLng', lng);
   };
-
+  
+  // Get current language code (en, es, fr, zh)
+  const currentLanguage = i18n.language.substring(0, 2).toLowerCase();
+  
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button 
           variant="ghost" 
-          size="icon" 
-          className="relative text-white hover:bg-white/10 md:text-gray-700 md:hover:bg-gray-100 rounded-full p-2 flex items-center justify-center"
+          className="flex items-center justify-center p-1 min-w-[32px] min-h-[32px] rounded-full border border-gray-200 text-black bg-white hover:bg-gray-50"
         >
-          <Globe className="h-5 w-5" />
-          <span className="sr-only">Switch language</span>
-          <span className="absolute -top-1 -right-1 bg-blue-500 text-white text-xs rounded-full w-4 h-4 flex items-center justify-center">
-            {i18n.language.substring(0, 2)}
-          </span>
+          <span className="text-xs font-medium uppercase">{currentLanguage}</span>
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="w-32 mt-1">
         {languages.map((lang) => (
           <DropdownMenuItem 
             key={lang.code}
-            className={`cursor-pointer ${i18n.language === lang.code ? 'font-bold bg-slate-100' : ''}`}
+            className={`cursor-pointer ${currentLanguage === lang.code ? 'font-bold bg-gray-100' : ''}`}
             onClick={() => changeLanguage(lang.code)}
           >
             {lang.name}
