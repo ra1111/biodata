@@ -1,12 +1,15 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { NAV_LINKS } from "@/lib/constants";
+import { useTranslation } from "react-i18next";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 interface HeaderProps {
   hasScrolled: boolean;
 }
 
 export default function Header({ hasScrolled }: HeaderProps) {
+  const { t } = useTranslation();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   // Close mobile menu when clicking outside
@@ -56,7 +59,7 @@ export default function Header({ hasScrolled }: HeaderProps) {
           
           {/* Navigation */}
           <motion.nav 
-            className="hidden md:flex space-x-10"
+            className="hidden md:flex space-x-8 items-center"
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
@@ -67,13 +70,14 @@ export default function Header({ hasScrolled }: HeaderProps) {
                 href={link.href} 
                 className="text-base font-medium text-gray-700 hover:text-adgenie-primary transition"
               >
-                {link.label}
+                {t(`nav.${link.key}`)}
               </a>
             ))}
+            <LanguageSwitcher />
           </motion.nav>
           
-          {/* CTA Button */}
-          <div>
+          {/* CTA Button and Mobile Menu */}
+          <div className="flex items-center space-x-2">
             <motion.a 
               href="https://apps.shopify.com/adgenie-ai" 
               className="hidden md:inline-flex items-center px-5 py-2 border border-transparent text-base font-medium rounded-full shadow-sm text-white bg-shopify-green hover:bg-opacity-90 transition"
@@ -83,8 +87,12 @@ export default function Header({ hasScrolled }: HeaderProps) {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Install App
+              {t('header.installApp')}
             </motion.a>
+            
+            <div className="md:hidden">
+              <LanguageSwitcher />
+            </div>
             
             {/* Mobile menu button */}
             <button 
@@ -112,7 +120,7 @@ export default function Header({ hasScrolled }: HeaderProps) {
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-adgenie-primary hover:bg-gray-50"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              {link.label}
+              {t(`nav.${link.key}`)}
             </a>
           ))}
           <a 
@@ -120,7 +128,7 @@ export default function Header({ hasScrolled }: HeaderProps) {
             className="block px-3 py-2 rounded-md text-base font-medium text-white bg-shopify-green"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            Install App
+            {t('header.installApp')}
           </a>
         </div>
       </div>
