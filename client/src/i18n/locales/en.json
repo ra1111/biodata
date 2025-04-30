@@ -3,6 +3,7 @@
     "features": "Features",
     "howItWorks": "How It Works",
     "pricing": "Pricing",
+    "blog": "Blog",
     "faq": "FAQ"
   },
   "header": {
@@ -67,5 +68,33 @@
     "copyright": "© 2025 AdGenie. All rights reserved.",
     "terms": "Terms of Service",
     "privacy": "Privacy Policy"
+  },
+  "blog": {
+    "title": "AdGenie Blog",
+    "subtitle": "Tips, tutorials, and insights to help you create better ads for your Shopify store.",
+    "searchPlaceholder": "Search articles...",
+    "readMore": "Read more",
+    "errorLoading": "Error loading blog posts",
+    "tryAgain": "Try again",
+    "noSearchResults": "No articles found matching your search",
+    "noPosts": "No blog posts available",
+    "clearSearch": "Clear search",
+    "recentPosts": "Recent Posts",
+    "popularTopics": "Popular Topics",
+    "subscribeNewsletter": "Subscribe to our newsletter",
+    "subscribeText": "Get the latest articles and insights delivered to your inbox",
+    "subscribeButton": "Subscribe",
+    "emailPlaceholder": "Your email address"
+  },
+  "blogPost": {
+    "backToBlog": "Back to blog",
+    "errorLoading": "Error loading article",
+    "errorMessage": "We're having trouble loading this article. Please try again later.",
+    "tryAgain": "Try again",
+    "returnToBlog": "Return to blog",
+    "authorLabel": "Content Writer",
+    "shareArticle": "Share this article",
+    "relatedArticles": "Related Articles",
+    "readNext": "Read next"
   }
 }
