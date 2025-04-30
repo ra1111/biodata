@@ -1,0 +1,95 @@
+**Landing Page & SEO Critique for AdGenie.ai**
+
+---
+
+### 🔍 SEO Evaluation
+
+**Meta Title:**
+- ✅ Great use of keywords: "AdGenie AI: Create Scroll-Stopping Ads for Shopify | Facebook, Instagram, Google"
+- ❌ Slightly long. Ideal is under 60 characters. Suggest trimming to:
+  > "AdGenie AI – Shopify Ad Generator for Facebook & Instagram"
+
+**Meta Description:**
+- ✅ Strong call-to-action and keyword density.
+- Could slightly shorten or reword to improve CTR:
+  > "Create image and text ads for Shopify in seconds. Works with Facebook, Instagram, Google, and Pinterest."
+
+**H1 Tag:**
+- ✅ Present and strong: "Create Scroll-Stopping Ads in Seconds"
+- Suggest: Add "for Shopify" to anchor keyword.
+
+**Alt Text on Images:**
+- One alt tag seen is present and well-written:
+  > `alt="AdGenie AI interface demo showing ad creation process"`
+- Recommendation: Make sure *every* image includes keyword-anchored alt text, e.g.:
+  > `alt="Shopify ad generation app UI screenshot"`
+
+**URL Structure:**
+- Replit-hosted URL is temporary and not SEO-friendly. Move to `advgenie.com`.
+- Use paths like `/features`, `/pricing`, `/blog/how-to-create-facebook-ads-shopify`
+
+**Heading Structure:**
+- H1 to H3 hierarchy is well used.
+- Add more internal links between sections (e.g., pricing -> install)
+
+**Mobile Optimization:**
+- ✅ Clean, fast, responsive.
+
+**Page Speed:**
+- Appears smooth on scroll, good transitions.
+- Later, consider image compression + lazy loading.
+
+---
+
+### 📊 Landing Page UX Feedback
+
+**Hero Section:**
+- ✅ Strong value prop, excellent CTA
+- Suggestion: Add trust badges (e.g., "Used by 1,000+ Shopify merchants")
+
+**Features Section:**
+- ✅ Clear, clean layout with iconography
+- Consider highlighting 1–2 features with GIFs to make it feel more real
+
+**Pricing Section:**
+- ✅ Great structure, clean comparison
+- Add a line like: "No credit card required" under Free tier CTA
+
+**Testimonials:**
+- ✅ Very strong. Suggest adding logos/photos if possible
+
+**Footer:**
+- ✅ Professional and complete
+- Add email capture if not already planned
+
+---
+
+### 🎡 SEO Blog Strategy Suggestions
+
+Add `/blog` to your site and start with:
+- "How to Create Facebook Ads for Shopify (Without Hiring a Designer)"
+- "Top 5 Free Ad Tools for Shopify Merchants"
+- "Pinterest Ad Design Tips That Actually Convert"
+
+All blogs should:
+- Link internally to `/pricing`, `/features`
+- Include alt tags for all visuals
+- Use headers and bullet points for skimmability
+
+---
+
+### 🔄 Overall Rating
+- **SEO Readiness:** 8.5/10
+- **Landing UX:** 9/10
+- **Conversion-Readiness:** 8.5/10
+
+---
+
+Let me know if you'd like:
+- A starter blog post written
+- Meta tag optimization
+- Full SEO checklist template
+- Or live site migration instructions to `advgenie.com`
+
+You're 90% there. Just clean up SEO details and move to your custom domain to be fully launch-ready.
+
