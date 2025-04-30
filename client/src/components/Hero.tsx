@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import adgenieDemo from "../assets/adgenie-demo.svg";
 
 export default function Hero() {
   return (
@@ -38,16 +39,18 @@ export default function Hero() {
               </div>
             </motion.div>
             
-            {/* Simple image placeholder as shown in screenshot */}
+            {/* Using the exact image as provided */}
             <motion.div 
               className="md:w-1/2 relative flex justify-center"
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.7, delay: 0.2 }}
             >
-              <div className="p-4 bg-white/10 rounded-lg shadow-lg w-[400px] h-[280px] flex items-center justify-center">
-                <span className="text-white text-lg">AdGenie AI Ad Generator Demo</span>
-              </div>
+              <img 
+                src={adgenieDemo} 
+                alt="AdGenie AI Ad Generator Demo" 
+                className="w-full max-w-[500px] h-auto"
+              />
             </motion.div>
           </div>
         </div>
