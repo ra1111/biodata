@@ -1,0 +1,62 @@
+{
+  "hero": {
+    "title": "Crea Anuncios Impactantes en Segundos",
+    "subtitle": "¿No tienes diseñador? No hay problema. Genera anuncios de imágenes y texto para Facebook, Instagram, Google y Pinterest, al instante.",
+    "button1": "Prueba Gratis en Shopify",
+    "button2": "Ver Cómo Funciona"
+  },
+  "platforms": {
+    "title": "Funciona Con Todas las Principales Plataformas de Anuncios",
+    "description": "Genera anuncios optimizados para las plataformas más importantes."
+  },
+  "valueProps": {
+    "title": "¿Por Qué Elegir AdGenie?",
+    "description": "Nuestra plataforma impulsada por IA te brinda las herramientas para crear anuncios profesionales sin contratar costosos diseñadores o redactores."
+  },
+  "howItWorks": {
+    "title": "Cómo Funciona",
+    "description": "Tres simples pasos para generar anuncios profesionales que convierten.",
+    "step1": {
+      "title": "Conecta Tu Tienda",
+      "description": "Instala la aplicación y conéctala a tu tienda de Shopify."
+    },
+    "step2": {
+      "title": "Selecciona Productos",
+      "description": "Elige los productos que quieres promocionar y las plataformas que quieres usar."
+    },
+    "step3": {
+      "title": "Genera y Exporta",
+      "description": "Deja que AdGenie cree tus anuncios y expórtalos directamente a tus plataformas de anuncios."
+    }
+  },
+  "features": {
+    "title": "Características Que Nos Distinguen",
+    "description": "Todo lo que necesitas para crear anuncios de alta conversión está a tu alcance."
+  },
+  "testimonials": {
+    "title": "Amado por Comerciantes de Shopify",
+    "description": "Únete a miles de comerciantes felices que han potenciado sus campañas publicitarias."
+  },
+  "pricing": {
+    "title": "Precios Simples y Transparentes",
+    "description": "Planes que crecen con tu negocio. Sin tarifas ocultas.",
+    "monthly": "mensual",
+    "yearly": "anual (ahorra 20%)",
+    "cta": "Comenzar Prueba Gratuita",
+    "feature": "Característica Incluida"
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "description": "Todo lo que necesitas saber sobre AdGenie."
+  },
+  "cta": {
+    "title": "¿Listo para crear anuncios increíbles?",
+    "description": "Únete a miles de comerciantes que ya utilizan AdGenie para mejorar el rendimiento de sus anuncios.",
+    "button": "Comienza Gratis"
+  },
+  "footer": {
+    "copyright": "© 2025 AdGenie. Todos los derechos reservados.",
+    "terms": "Términos de Servicio",
+    "privacy": "Política de Privacidad"
+  }
+}

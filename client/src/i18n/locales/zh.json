@@ -1,0 +1,62 @@
+{
+  "hero": {
+    "title": "瞬间创建吸引眼球的广告",
+    "subtitle": "没有设计师？没问题。即时为Facebook、Instagram、Google和Pinterest生成图像和文字广告。",
+    "button1": "在Shopify上免费试用",
+    "button2": "了解工作原理"
+  },
+  "platforms": {
+    "title": "适用于所有主要广告平台",
+    "description": "为最重要的平台生成优化的广告。"
+  },
+  "valueProps": {
+    "title": "为什么选择AdGenie？",
+    "description": "我们的AI支持平台为您提供创建专业广告的工具，无需聘请昂贵的设计师或文案。"
+  },
+  "howItWorks": {
+    "title": "工作原理",
+    "description": "三个简单步骤生成转化率高的专业广告。",
+    "step1": {
+      "title": "连接您的商店",
+      "description": "安装应用程序并将其连接到您的Shopify商店。"
+    },
+    "step2": {
+      "title": "选择产品",
+      "description": "选择您想要推广的产品和您想要使用的平台。"
+    },
+    "step3": {
+      "title": "生成并导出",
+      "description": "让AdGenie创建您的广告，并将它们直接导出到您的广告平台。"
+    }
+  },
+  "features": {
+    "title": "使我们脱颖而出的功能",
+    "description": "创建高转化率广告所需的一切触手可及。"
+  },
+  "testimonials": {
+    "title": "Shopify商家的喜爱",
+    "description": "加入成千上万已经为其广告活动增添动力的满意商家。"
+  },
+  "pricing": {
+    "title": "简单透明的定价",
+    "description": "随着您的业务增长而增长的计划。没有隐藏费用。",
+    "monthly": "月付",
+    "yearly": "年付（节省20%）",
+    "cta": "开始免费试用",
+    "feature": "包含功能"
+  },
+  "faq": {
+    "title": "常见问题",
+    "description": "关于AdGenie您需要了解的一切。"
+  },
+  "cta": {
+    "title": "准备好创建惊人的广告了吗？",
+    "description": "加入已经使用AdGenie提升其广告效果的数千商家。",
+    "button": "免费开始使用"
+  },
+  "footer": {
+    "copyright": "© 2025 AdGenie。保留所有权利。",
+    "terms": "服务条款",
+    "privacy": "隐私政策"
+  }
+}
