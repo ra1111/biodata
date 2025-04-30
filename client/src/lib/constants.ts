@@ -212,6 +212,7 @@ export const FOOTER_LINKS = {
   product: [
     { label: "Features", href: "#features" },
     { label: "Pricing", href: "#pricing" },
+    { label: "Blog", href: "/blog" },
     { label: "Roadmap", href: "#" },
     { label: "Release Notes", href: "#" },
   ],
@@ -233,5 +234,6 @@ export const NAV_LINKS = [
   { key: "features", label: "Features", href: "#features" },
   { key: "howItWorks", label: "How It Works", href: "#how-it-works" },
   { key: "pricing", label: "Pricing", href: "#pricing" },
+  { key: "blog", label: "Blog", href: "/blog" },
   { key: "faq", label: "FAQ", href: "#faq" },
 ];

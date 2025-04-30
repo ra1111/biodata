@@ -23,12 +23,12 @@ export const blogPosts = pgTable("blog_posts", {
   title: varchar("title", { length: 255 }).notNull(),
   summary: text("summary").notNull(),
   content: text("content").notNull(),
-  coverImage: varchar("cover_image", { length: 255 }).notNull().default(''),
+  coverImage: varchar("cover_image", { length: 255 }).notNull(),
   publishedAt: timestamp("published_at").defaultNow().notNull(),
   author: varchar("author", { length: 255 }).notNull(),
-  authorImage: varchar("author_image", { length: 255 }).notNull().default(''),
+  authorImage: varchar("author_image", { length: 255 }).notNull(),
   readTime: varchar("read_time", { length: 50 }).notNull(),
-  tags: text("tags").array().notNull().default([]),
+  tags: text("tags").array().notNull(),
 });
 
 export const insertBlogPostSchema = createInsertSchema(blogPosts).omit({
