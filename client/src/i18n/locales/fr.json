@@ -1,4 +1,13 @@
 {
+  "nav": {
+    "features": "Fonctionnalités",
+    "howItWorks": "Comment Ça Marche",
+    "pricing": "Tarification",
+    "faq": "FAQ"
+  },
+  "header": {
+    "installApp": "Installer l'App"
+  },
   "hero": {
     "title": "Créez des Publicités Captivantes en Quelques Secondes",
     "subtitle": "Pas de designer ? Pas de problème. Générez des publicités avec images et textes pour Facebook, Instagram, Google et Pinterest, instantanément.",

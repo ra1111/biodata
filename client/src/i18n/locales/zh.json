@@ -1,4 +1,13 @@
 {
+  "nav": {
+    "features": "功能特点",
+    "howItWorks": "工作原理",
+    "pricing": "价格方案",
+    "faq": "常见问题"
+  },
+  "header": {
+    "installApp": "安装应用"
+  },
   "hero": {
     "title": "瞬间创建吸引眼球的广告",
     "subtitle": "没有设计师？没问题。即时为Facebook、Instagram、Google和Pinterest生成图像和文字广告。",

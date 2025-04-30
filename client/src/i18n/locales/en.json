@@ -1,4 +1,13 @@
 {
+  "nav": {
+    "features": "Features",
+    "howItWorks": "How It Works",
+    "pricing": "Pricing",
+    "faq": "FAQ"
+  },
+  "header": {
+    "installApp": "Install App"
+  },
   "hero": {
     "title": "Create Scroll-Stopping Ads in Seconds",
     "subtitle": "No designer? No problem. Generate image and text ads for Facebook, Instagram, Google, and Pinterest—instantly.",

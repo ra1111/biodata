@@ -1,4 +1,13 @@
 {
+  "nav": {
+    "features": "Características",
+    "howItWorks": "Cómo Funciona",
+    "pricing": "Precios",
+    "faq": "Preguntas Frecuentes"
+  },
+  "header": {
+    "installApp": "Instalar App"
+  },
   "hero": {
     "title": "Crea Anuncios Impactantes en Segundos",
     "subtitle": "¿No tienes diseñador? No hay problema. Genera anuncios de imágenes y texto para Facebook, Instagram, Google y Pinterest, al instante.",

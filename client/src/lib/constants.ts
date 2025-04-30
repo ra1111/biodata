@@ -230,8 +230,8 @@ export const FOOTER_LINKS = {
 };
 
 export const NAV_LINKS = [
-  { label: "Features", href: "#features" },
-  { label: "How It Works", href: "#how-it-works" },
-  { label: "Pricing", href: "#pricing" },
-  { label: "FAQ", href: "#faq" },
+  { key: "features", label: "Features", href: "#features" },
+  { key: "howItWorks", label: "How It Works", href: "#how-it-works" },
+  { key: "pricing", label: "Pricing", href: "#pricing" },
+  { key: "faq", label: "FAQ", href: "#faq" },
 ];
