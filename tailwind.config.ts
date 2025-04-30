@@ -61,6 +61,13 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // AdGenie Theme Colors
+        "adgenie-primary": "hsl(var(--adgenie-primary))",
+        "adgenie-secondary": "hsl(var(--adgenie-secondary))",
+        "adgenie-accent": "hsl(var(--adgenie-accent))",
+        "adgenie-dark": "hsl(var(--adgenie-dark))",
+        "adgenie-light": "hsl(var(--adgenie-light))",
+        "shopify-green": "#008060",
       },
       keyframes: {
         "accordion-down": {

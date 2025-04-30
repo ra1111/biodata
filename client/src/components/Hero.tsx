@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-r from-adgenie-primary to-adgenie-secondary text-white">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80')] opacity-10 bg-cover bg-center"></div>
-      <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+    <section className="relative overflow-hidden bg-gradient-to-r from-blue-700 to-indigo-900 text-white py-16 md:py-24">
+      {/* Remove problematic background image and use solid gradient */}
+      <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto">
           <div className="flex flex-col md:flex-row items-center">
             <motion.div 
@@ -22,11 +22,11 @@ export default function Hero() {
               <div className="flex flex-wrap gap-4">
                 <motion.a 
                   href="https://apps.shopify.com/adgenie-ai" 
-                  className="inline-flex items-center px-6 py-3 border border-transparent text-base md:text-lg font-medium rounded-full shadow-sm text-adgenie-primary bg-white hover:bg-gray-100 transition transform hover:scale-105 duration-200"
+                  className="inline-flex items-center px-6 py-3 border border-transparent text-base md:text-lg font-medium rounded-full shadow-sm text-blue-900 bg-white hover:bg-gray-100 transition transform hover:scale-105 duration-200"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                 >
-                  <i className="fas fa-rocket mr-2"></i> Try for Free on Shopify
+                  Try for Free on Shopify
                 </motion.a>
                 <motion.a 
                   href="#how-it-works" 
@@ -34,7 +34,7 @@ export default function Hero() {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                 >
-                  <i className="fas fa-play-circle mr-2"></i> See How It Works
+                  See How It Works
                 </motion.a>
               </div>
             </motion.div>
@@ -44,15 +44,35 @@ export default function Hero() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.7, delay: 0.2 }}
             >
-              <div className="bg-white rounded-lg shadow-2xl overflow-hidden transform rotate-1">
-                <img 
-                  src="https://cdn.shopify.com/app-store/listing_images/0f2a3ce3a350d918e4be1cbf37eb3308/promotional_image/CLvQk9m6_IwDEAE=.jpeg" 
-                  alt="AdGenie AI interface showing ad creation" 
-                  className="w-full h-auto"
-                />
+              <div className="bg-white rounded-lg shadow-xl overflow-hidden">
+                <div className="bg-indigo-600 rounded-t-lg p-6 text-white text-center">
+                  <h3 className="text-2xl font-bold">Generate Image & Text Ads For All Platforms</h3>
+                  <div className="flex justify-center mt-4 space-x-3">
+                    <div className="bg-white p-2 rounded">
+                      <span className="text-blue-600 text-xl">f</span>
+                    </div>
+                    <div className="bg-white p-2 rounded">
+                      <span className="text-red-600 text-xl">P</span>
+                    </div>
+                    <div className="bg-white p-2 rounded">
+                      <span className="text-pink-600 text-xl">Ig</span>
+                    </div>
+                  </div>
+                </div>
+                <div className="p-4">
+                  <div className="bg-gray-100 rounded-lg p-4 text-center">
+                    <p className="font-bold text-gray-800">KEEP IT SIMPLE, KEEP IT MINIMAL</p>
+                    <div className="mt-4 flex justify-center">
+                      <div className="w-24 h-32 bg-gradient-to-b from-red-300 to-red-500 rounded relative">
+                        <div className="absolute top-0 left-0 right-0 text-center text-xs font-bold p-1">eau</div>
+                        <div className="absolute bottom-0 left-0 right-0 h-6 bg-amber-800 rounded-b"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
               <motion.div 
-                className="absolute -right-6 -bottom-6 bg-adgenie-accent text-white py-2 px-4 rounded-full shadow-lg transform rotate-12"
+                className="absolute -right-6 -bottom-6 bg-yellow-500 text-white py-2 px-4 rounded-full shadow-lg"
                 initial={{ scale: 0 }}
                 animate={{ scale: 1 }}
                 transition={{ duration: 0.5, delay: 0.8, type: "spring" }}
