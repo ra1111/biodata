@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "features": "Fonctionnalités",
+    "howItWorks": "Comment Ça Marche",
+    "pricing": "Tarification",
+    "faq": "FAQ"
+  },
+  "header": {
+    "installApp": "Installer l'App"
+  },
+  "hero": {
+    "title": "Créez des Publicités Captivantes en Quelques Secondes",
+    "subtitle": "Pas de designer ? Pas de problème. Générez des publicités avec images et textes pour Facebook, Instagram, Google et Pinterest, instantanément.",
+    "button1": "Essayez Gratuitement sur Shopify",
+    "button2": "Voir Comment Ça Marche"
+  },
+  "platforms": {
+    "title": "Compatible Avec Toutes les Principales Plateformes Publicitaires",
+    "description": "Générez des publicités optimisées pour les plateformes les plus importantes."
+  },
+  "valueProps": {
+    "title": "Pourquoi Choisir AdGenie ?",
+    "description": "Notre plateforme alimentée par l'IA vous donne les outils pour créer des publicités professionnelles sans embaucher de designers ou rédacteurs coûteux."
+  },
+  "howItWorks": {
+    "title": "Comment Ça Marche",
+    "description": "Trois étapes simples pour générer des publicités professionnelles qui convertissent.",
+    "step1": {
+      "title": "Connectez Votre Boutique",
+      "description": "Installez l'application et connectez-la à votre boutique Shopify."
+    },
+    "step2": {
+      "title": "Sélectionnez des Produits",
+      "description": "Choisissez les produits que vous souhaitez promouvoir et les plateformes que vous voulez utiliser."
+    },
+    "step3": {
+      "title": "Générez et Exportez",
+      "description": "Laissez AdGenie créer vos publicités et exportez-les directement vers vos plateformes publicitaires."
+    }
+  },
+  "features": {
+    "title": "Fonctionnalités Qui Nous Distinguent",
+    "description": "Tout ce dont vous avez besoin pour créer des publicités à fort taux de conversion est à portée de main."
+  },
+  "testimonials": {
+    "title": "Adoré par les Marchands Shopify",
+    "description": "Rejoignez des milliers de marchands satisfaits qui ont boosté leurs campagnes publicitaires."
+  },
+  "pricing": {
+    "title": "Tarification Simple et Transparente",
+    "description": "Des forfaits qui évoluent avec votre entreprise. Pas de frais cachés.",
+    "monthly": "mensuel",
+    "yearly": "annuel (économisez 20%)",
+    "cta": "Commencer l'Essai Gratuit",
+    "feature": "Fonctionnalité Incluse"
+  },
+  "faq": {
+    "title": "Questions Fréquemment Posées",
+    "description": "Tout ce que vous devez savoir sur AdGenie."
+  },
+  "cta": {
+    "title": "Prêt à créer des publicités incroyables ?",
+    "description": "Rejoignez des milliers de marchands qui utilisent déjà AdGenie pour améliorer la performance de leurs publicités.",
+    "button": "Commencer Gratuitement"
+  },
+  "footer": {
+    "copyright": "© 2025 AdGenie. Tous droits réservés.",
+    "terms": "Conditions d'Utilisation",
+    "privacy": "Politique de Confidentialité"
+  }
+}
